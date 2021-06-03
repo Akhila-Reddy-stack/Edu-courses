@@ -74,7 +74,7 @@ class Chapters extends PureComponent {
                                 <img src={`https://res.cloudinary.com/kraftycrux/image/upload/w_160,h_224,dpr_auto/${chap.big_image}`} class="con-img-bg" />
                                 <div className="content-inner">
                                     <ArrowBackIosIcon className="content-arrow" />
-                                    <div className="content-group"><span class="con-sell">BESTSELLER</span></div>
+                                    {/* <div className="content-group"><span class="con-sell">BESTSELLER</span></div> */}
                                     <div className="content-text">{chap.name}</div>
                                     <div className="">
                                         <div className=""><GroupIcon className="content-groupicon" />
