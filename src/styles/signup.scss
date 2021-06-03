@@ -1,20 +1,21 @@
 @media screen and (min-width: 1440px) {
-    .otp {
+    .login {
         display: none;
     }
 }
 
+
+
 @media screen and (min-width: 328px) {
-    .otp {
+    .login {
         display: block;
     }
-    .otp-init {
+    .login-init {
         position: absolute;
         width: 242px;
         height: 24px;
         left: 18px;
         top: 121px;
-
         font-family: Avenir;
         font-style: normal;
         font-weight: 800;
@@ -26,13 +27,12 @@
 
         color: #0d1333;
     }
-    .otp p {
+    .login p {
         position: absolute;
         width: 325px;
         height: 24px;
         left: 18px;
         top: 165px;
-
         font-family: Avenir;
         font-style: normal;
         font-weight: normal;
@@ -44,22 +44,7 @@
 
         color: #9d8f8f;
     }
-    .otp-btn {
-        position: absolute;
-        width: 291px;
-        height: 52px;
-        left: 44px;
-        top: 329px;
-        /* font-family: Avenir; */
-        font-weight: 700 !important;
-        font-size: 23px !important;
-        top: 329px;
-        border-radius: 50px !important;
-        background-color: #6e8afa;
-        color: #ffffff;
-    }
-
-    .otp-input {
+    .login-input {
         position: absolute;
         width: 343px;
         height: 52px;
@@ -68,26 +53,80 @@
         border-radius: 50px;
         border: none;
         outline: none;
-        background-color: #6c757d21;
-        // color: #f5f5f7;
-        // filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background-color: #bfc9d129;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .login-btn {
+        position: absolute;
+        width: 291px;
+        height: 52px;
+        left: 44px;
+        /* font-family: Avenir; */
+        font-weight: 700 !important;
+        font-size: 23px !important;
+        top: 329px;
+        border-radius: 50px !important;
+        background-color: #6e8afa;
+        color: #ffffff;
+    }
+    .mi-phone {
+        position: absolute;
+        width: 24px !important;
+        height: 24px !important;
+        left: 39px !important;
+        top: 247px !important;
     }
 
-    .otp-input::placeholder {
-        // position: ;
+    .login-input::placeholder {
+        // position: absolute;
         width: 51px;
         height: 18px;
         // left: 100px !important;
         top: 250px;
-        padding-left: 4rem !important;
-        margin-left: 3rem !important;
+        padding-left: 4rem;
+        // margin-left: 3rem !important;
         font-family: Avenir;
         font-size: 18px;
         line-height: 100%;
         letter-spacing: -0.01em;
         color: #8b8fa4;
     }
-    .otp-phone {
+    .content-ratings {
+        position: absolute;
+        width: 42px;
+        height: 24px;
+        left: 106px;
+        top: 203px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 100%;
+        /* or 14px */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.01em;
+
+        color: #858cb1;
+    }
+    .login-field {
+        background-color: lightgrey;
+        border: none !important;
+        margin-top: 1rem !important;
+        margin-left: 5rem !important;
+        left: 78px !important;
+        top: 39px !important;
+        outline: none !important;
+        background-color: #bfc9d100;
+    }
+
+    .login-input:focus::placeholder {
+        color: transparent !important;
+    }
+
+    .login-phone {
         position: absolute;
         left: 10.4%;
         right: 83.2%;
@@ -96,20 +135,11 @@
         font-size: 18px;
         color: #8b8fa4;
     }
-    .otp-input:focus::placeholder {
-        color: transparent;
-      }
-      .otp-input:focus {
-        padding-left: 4rem !important;
-      }
-      .otp-field{
-        background-color: lightgrey;
-        border: none !important;
-        margin-top: 1rem !important;
-        margin-left: 5rem !important;
-        left: 78px !important;
-        top: 39px !important;
-        outline:none !important;
-        background-color: #bfc9d100;
-      }
 }
+
+
+// @media screen and (max-width: 1280px) {
+//     .login {
+//         display: none;
+//     }
+// }

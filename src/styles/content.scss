@@ -1,0 +1,445 @@
+@media screen and (min-width: 1440px) {
+    .content {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 328px) {
+    body {
+        font-family: Avenir;
+    }
+    .content {
+        display: block;
+    }
+    .content-inner {
+        position: absolute;
+        width: 523px;
+        height: 508px;
+        left: 0px;
+        top: 0px;
+
+        // background: url('../Images/marketing.png');
+    }
+    .con-img-bg {
+        width: 413px;
+        height: 487px;
+        left: 0px;
+        /* bottom: 20px; */
+        top: -16px;
+        position: absolute;
+    }
+    .content-arrow {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 18px;
+        top: 62px;
+    }
+    .content-group {
+        position: absolute;
+        width: 129px;
+        height: 27px;
+        left: 18px;
+        top: 116px;
+        background-color: #ffd073;
+        color: #212850;
+    }
+    .con-sell {
+        position: absolute;
+        width: 117px;
+        height: 19px;
+        left: 17px;
+        top: 5px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 100%;
+        /* or 14px */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.01em;
+
+        color: #212850;
+    }
+    .content-groupicon {
+        position: absolute;
+        width: 66px;
+        height: 24px;
+        left: 18px;
+        top: 203px;
+    }
+    .content-reviews {
+        position: absolute;
+        width: 42px;
+        height: 24px;
+        left: 42px;
+        top: 203px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 100%;
+        /* or 14px */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.01em;
+
+        color: #858cb1;
+    }
+    .content-reviews {
+        position: absolute;
+        width: 66px;
+        height: 24px;
+        left: 42px;
+        top: 203px;
+    }
+    .content-stars {
+        position: absolute;
+        left: 17.4%;
+        right: 79.8%;
+        top: 39.5%;
+        bottom: 72.86%;
+    }
+
+    .content-ratings {
+        position: absolute;
+        width: 64px;
+        height: 24px;
+        left: 119px;
+        top: 203px;
+    }
+    .content-text {
+        position: absolute;
+        width: 141px;
+        height: 24px;
+        left: 18px;
+        top: 161px;
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 100%;
+        /* identical to box height, or 24px */
+        letter-spacing: -0.01em;
+        color: #0d1333;
+    }
+    .content-reels {
+        position: absolute;
+        width: 417px;
+        height: 466px;
+        left: 0px;
+        top: 346px;
+
+        background: #ffffff;
+        border-radius: 40px;
+    }
+    .content-courses-list {
+        position: absolute;
+        width: 260px;
+        height: 24px;
+        left: 18px;
+        top: 34px;
+        // top: 390px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 100%;
+        /* or 20px */
+
+        letter-spacing: -0.01em;
+
+        color: #0d1333;
+    }
+    .content-list-1 {
+        position: absolute;
+        width: 331px;
+        height: 48px;
+        left: 36px;
+        top: 94px;
+        // top: 454px;
+    }
+    .content-list-2 {
+        position: absolute;
+        width: 331px;
+        height: 48px;
+        left: 36px;
+        top: 184px;
+    }
+    .content-list-3 {
+        position: absolute;
+        width: 331px;
+        height: 48px;
+        left: 36px;
+        top: 286px;
+    }
+    .content-list-4 {
+        position: absolute;
+        width: 331px;
+        height: 48px;
+        left: 36px;
+        top: 382px;
+    }
+    .con-id-1 {
+        position: absolute;
+        left: 0%;
+        right: 82.78%;
+        top: 0%;
+        bottom: 0%;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 100%;
+        /* identical to box height, or 48px */
+
+        letter-spacing: -0.01em;
+
+        color: #e4e7f4;
+    }
+    .con-id-2 {
+        position: absolute;
+        left: 0%;
+        right: 82.78%;
+        top: 0%;
+        bottom: 0%;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 100%;
+        /* identical to box height, or 48px */
+
+        letter-spacing: -0.01em;
+
+        color: #e4e7f4;
+    }
+    .con-id-3 {
+        position: absolute;
+        left: 0%;
+        right: 82.78%;
+        top: 0%;
+        bottom: 0%;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 100%;
+        /* identical to box height, or 48px */
+
+        letter-spacing: -0.01em;
+
+        color: #e4e7f4;
+    }
+    .con-id-4 {
+        position: absolute;
+        left: 0%;
+        right: 82.78%;
+        top: 0%;
+        bottom: 0%;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 100%;
+        /* identical to box height, or 48px */
+
+        letter-spacing: -0.01em;
+
+        color: #e4e7f4;
+    }
+    .con-time-details-1 {
+        position: absolute;
+        left: 22.36%;
+        right: 54.38%;
+        top: 0%;
+        bottom: 66.67%;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 16px */
+
+        letter-spacing: -0.01em;
+
+        color: #8b8fa4;
+    }
+    .con-time-details-2 {
+        position: absolute;
+        left: 22.36%;
+        right: 54.38%;
+        top: 0%;
+        bottom: 66.67%;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 16px */
+
+        letter-spacing: -0.01em;
+
+        color: #8b8fa4;
+    }
+    .con-time-details-3 {
+        position: absolute;
+        left: 22.36%;
+        right: 54.38%;
+        top: 0%;
+        bottom: 66.67%;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 16px */
+
+        letter-spacing: -0.01em;
+
+        color: #8b8fa4;
+    }
+    .con-time-details-4 {
+        position: absolute;
+        left: 22.36%;
+        right: 54.38%;
+        top: 0%;
+        bottom: 66.67%;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 16px */
+
+        letter-spacing: -0.01em;
+
+        color: #8b8fa4;
+    }
+    .con-name-details-1 {
+        position: absolute;
+        left: 22.36%;
+        right: 46.83%;
+        top: 54.17%;
+        bottom: 8.33%;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 100%;
+        /* identical to box height, or 18px */
+
+        letter-spacing: -0.01em;
+
+        color: #0d1333;
+    }
+    .con-name-details-2 {
+        position: absolute;
+        left: 22.36%;
+        right: 37.46%;
+        top: 54.17%;
+        bottom: 8.33%;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 100%;
+        /* identical to box height, or 18px */
+
+        letter-spacing: -0.01em;
+
+        color: #0d1333;
+    }
+    .con-name-details-3 {
+        position: absolute;
+        left: 22.36%;
+        right: 39.58%;
+        top: 54.17%;
+        bottom: 8.33%;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 100%;
+        /* identical to box height, or 18px */
+
+        letter-spacing: -0.01em;
+
+        color: #0d1333;
+    }
+    .con-name-details-4 {
+        position: absolute;
+        left: 22.36%;
+        right: 22.66%;
+        top: 54.17%;
+        bottom: 8.33%;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 100%;
+        /* identical to box height, or 18px */
+
+        letter-spacing: -0.01em;
+
+        color: #0d1333;
+    }
+    .con-num-1 {
+        position: absolute;
+        left: 86.71%;
+        right: 0%;
+        top: 0%;
+        bottom: 8.33%;
+    }
+    .con-num-2 {
+        position: absolute;
+        left: 86.71%;
+        right: 0%;
+        top: 0%;
+        bottom: 8.33%;
+    }
+    .con-num-3 {
+        position: absolute;
+        left: 86.71%;
+        right: 0%;
+        top: 0%;
+        bottom: 8.33%;
+    }
+    .con-num-4 {
+        position: absolute;
+        left: 86.71%;
+        right: 0%;
+        top: 0%;
+        bottom: 8.33%;
+    }
+    .content-play {
+        width: 44px !important;
+        height: 36px !important;
+        // background-color: #49cc96;
+        color: #ffffff;
+    }
+    .link-arrow{
+        width: 45px;
+        height: 36px;
+        border-radius:50px;
+        background-color: #49cc96;
+    }
+}

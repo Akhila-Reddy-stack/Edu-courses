@@ -1,0 +1,312 @@
+@media screen and (min-width: 1440px) {
+    .courses {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 328px) {
+    .courses {
+        display: block;
+    }
+    .courses-clear {
+        position: absolute;
+        width: 24px;
+        height: 7px;
+        left: 18px;
+        top: 70px;
+    }
+    .courses-profile {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 321px;
+        top: 53px;
+
+        // background: url(.jpg);
+    }
+    .courses-init {
+        position: absolute;
+        width: 141px;
+        height: 24px;
+        left: 18px;
+        top: 121px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 100%;
+        /* identical to box height, or 24px */
+
+        letter-spacing: -0.01em;
+
+        color: #0d1333;
+    }
+    .courses-para {
+        position: absolute;
+        width: 325px;
+        height: 24px;
+        left: 18px;
+        top: 165px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 100%;
+        /* identical to box height, or 24px */
+
+        letter-spacing: -0.01em;
+
+        color: #9d8f8f;
+    }
+    .courses-input {
+        position: absolute;
+        width: 343px;
+        height: 52px;
+        left: 18px;
+        top: 233px;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        background-color: #6c757d21;
+        color: #f5f5f7;
+    }
+    .courses-input::placeholder {
+        // position: ;
+        width: 51px;
+        height: 18px;
+        // left: 100px !important;
+        top: 250px;
+        padding-left: 4rem !important;
+        margin-left: 3rem !important;
+        font-family: Avenir;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: -0.01em;
+        color: #8b8fa4;
+    }
+    .courses-list {
+        position: absolute;
+        width: 141px;
+        height: 24px;
+        left: 18px;
+        top: 337px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 100%;
+        /* or 20px */
+
+        letter-spacing: -0.01em;
+
+        color: #0d1333;
+    }
+    .courses-all {
+        position: absolute;
+        width: 141px;
+        height: 24px;
+        left: 220px;
+        top: 337px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 100%;
+        /* or 18px */
+
+        text-align: right;
+        letter-spacing: -0.01em;
+
+        color: #7691fa;
+    }
+    .courses-content-1 {
+        position: absolute;
+        width: 160px;
+        height: 224.42px;
+        left: 18px;
+        top: 397px;
+    }
+    .courses-content-2 {
+        position: absolute;
+        width: 160px;
+        height: 224.42px;
+        left: 201px;
+        top: 397px;
+    }
+    .courses-content-3 {
+        position: absolute;
+        width: 160px;
+        height: 224.42px;
+        left: 18px;
+        top: 641px;
+    }
+    .courses-content-4 {
+        position: absolute;
+        width: 160px;
+        height: 224.42px;
+        left: 201px;
+        top: 641px;
+    }
+
+    .courses-text-1 {
+        position: absolute;
+        width: 76px;
+        height: 16px;
+        left: 26px;
+        // top: 419px;
+
+        top: 20px;
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 16px */
+
+        letter-spacing: -0.01em;
+
+        color: #000000;
+    }
+    .courses-text-2 {
+        position: absolute;
+        width: 78px;
+        height: 16px;
+        left: 29px;
+        top: 19px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 16px */
+
+        letter-spacing: -0.01em;
+
+        color: #000000;
+    }
+    .courses-text-3 {
+        position: absolute;
+        width: 96px;
+        height: 16px;
+        left: 20px;
+    top: 20px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 16px */
+
+        letter-spacing: -0.01em;
+
+        color: #000000;
+    }
+    .courses-text-4 {
+        position: absolute;
+        width: 63px;
+        height: 16px;
+        left: 30px;
+        top: 20px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 16px */
+
+        letter-spacing: -0.01em;
+
+        color: #000000;
+    }
+    .courses-hours-1 {
+        position: absolute;
+        width: 38px;
+        height: 14px;
+        left: 29px;
+        // top: 442px;
+
+        top: 51px;
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        /* identical to box height, or 14px */
+
+        letter-spacing: -0.01em;
+
+        color: #8b8fa4;
+    }
+    .courses-hours-2 {
+        position: absolute;
+        width: 38px;
+        height: 14px;
+        left: 29px;
+        top: 48px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        /* identical to box height, or 14px */
+
+        letter-spacing: -0.01em;
+
+        color: #8b8fa4;
+    }
+    .courses-hours-3 {
+        position: absolute;
+        width: 31px;
+        height: 14px;
+        left: 21px;
+        top: 46px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        /* identical to box height, or 14px */
+
+        letter-spacing: -0.01em;
+
+        color: #8b8fa4;
+    }
+    .courses-hours-4 {
+        position: absolute;
+        width: 38px;
+        height: 14px;
+        // left: 27px;
+        // top: 19px;
+        left: 31px;
+    top: 47px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        /* identical to box height, or 14px */
+
+        letter-spacing: -0.01em;
+
+        color: #8b8fa4;
+    }
+    .search-courses {
+        position: absolute;
+        left: 10.4%;
+        right: 83.2%;
+        top: 30%;
+        bottom: 66.63%;
+        font-size: 18px;
+        color: #8b8fa4;
+    }
+}
