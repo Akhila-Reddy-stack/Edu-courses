@@ -1,0 +1,115 @@
+@media screen and (min-width: 1440px) {
+    .otp {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 328px) {
+    .otp {
+        display: block;
+    }
+    .otp-init {
+        position: absolute;
+        width: 242px;
+        height: 24px;
+        left: 18px;
+        top: 121px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 100%;
+        /* identical to box height, or 24px */
+
+        letter-spacing: -0.01em;
+
+        color: #0d1333;
+    }
+    .otp p {
+        position: absolute;
+        width: 325px;
+        height: 24px;
+        left: 18px;
+        top: 165px;
+
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 100%;
+        /* identical to box height, or 24px */
+
+        letter-spacing: -0.01em;
+
+        color: #9d8f8f;
+    }
+    .otp-btn {
+        position: absolute;
+        width: 291px;
+        height: 52px;
+        left: 44px;
+        top: 329px;
+        /* font-family: Avenir; */
+        font-weight: 700 !important;
+        font-size: 23px !important;
+        top: 329px;
+        border-radius: 50px !important;
+        background-color: #6e8afa;
+        color: #ffffff;
+    }
+
+    .otp-input {
+        position: absolute;
+        width: 343px;
+        height: 52px;
+        left: 18px;
+        top: 233px;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        background-color: #6c757d21;
+        // color: #f5f5f7;
+        // filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .otp-input::placeholder {
+        // position: ;
+        width: 51px;
+        height: 18px;
+        // left: 100px !important;
+        top: 250px;
+        padding-left: 4rem !important;
+        margin-left: 3rem !important;
+        font-family: Avenir;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: -0.01em;
+        color: #8b8fa4;
+    }
+    .otp-phone {
+        position: absolute;
+        left: 10.4%;
+        right: 83.2%;
+        top: 30%;
+        bottom: 66.63%;
+        font-size: 18px;
+        color: #8b8fa4;
+    }
+    .otp-input:focus::placeholder {
+        color: transparent;
+      }
+      .otp-input:focus {
+        padding-left: 4rem !important;
+      }
+      .otp-field{
+        background-color: lightgrey;
+        border: none !important;
+        margin-top: 1rem !important;
+        margin-left: 5rem !important;
+        left: 78px !important;
+        top: 39px !important;
+        outline:none !important;
+        background-color: #bfc9d100;
+      }
+}
